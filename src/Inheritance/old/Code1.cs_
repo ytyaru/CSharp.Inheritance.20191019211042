@@ -1,0 +1,26 @@
+﻿using System;
+
+namespace Inheritance
+{
+    class Code1
+    {
+        public void Run()
+        {
+        }
+    }
+    public class A
+    {
+        public void Method1()
+        {
+            // Do something.
+        }
+    }
+
+    public class B : A
+    {
+        public override void Method1() // Generates CS0506.
+        {
+            // Do something else.
+        }
+    }
+}

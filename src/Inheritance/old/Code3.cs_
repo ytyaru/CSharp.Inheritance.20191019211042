@@ -1,0 +1,14 @@
+﻿using System;
+
+namespace Inheritance
+{
+    class Code3
+    {
+        public void Run()
+        {
+        }
+    }
+    public struct ValueStructure : ValueType // Generates CS0527.
+    {
+    }
+}
