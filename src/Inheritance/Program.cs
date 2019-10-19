@@ -6,9 +6,10 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
-//            new Code0().Run();
-//            new Code1().Run();
             new Code4().Run();
+            new Code5().Run();
+            new Code6().Run();
+            new Code7().Run();
         }
     }
 }
